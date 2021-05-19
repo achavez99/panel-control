@@ -1,7 +1,7 @@
 .header {
     /* background: url("../img/bgvalorant.jpg") bottom center; */
     background-size: cover;
-    height: 100vh;
+    height: 55vh;
     /*
     También podemos forzar el alto
     fijando mínimo y máximo
@@ -59,7 +59,7 @@
 
 .header-content .promo-text {
     margin: 60% 40rem 0 -15rem;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: black;
     padding: 2rem 2rem;
     text-shadow: black 2px 2px 2px;
 }
