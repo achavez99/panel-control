@@ -86,8 +86,8 @@
 }
 
 .navbar-list .navbar-item a:hover {
-    background-color: var(--primary-color);
-    color: var(--light-color);
+    background-color: black;
+    color: grey;
 }
 
 .navbar-list .navbar-item:first-child {
