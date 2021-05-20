@@ -34,10 +34,10 @@ b {
 
 h1 {
     font-size: 2rem;
-    padding-top: 0rem;
+    padding-top: 3rem;
     border-bottom: solid 1px var(--primary-color);
-    margin-left: 40%;
-    margin-right: 40%;
+    margin: auto;
+    width: fit-content;
 }
 
 h1.titulo {
