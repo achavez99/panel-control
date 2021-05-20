@@ -1,5 +1,5 @@
 * {
-    font-family: 'Cairo', Arial, Helvetica, sans-serif;
+    font-family: DINNextW1G, arial, georgia, sans-serif;
     /* Aunque estos dos valores son la configuración
      por defecto los incluimos porque son la base de
      todos los cálculos. */
@@ -28,7 +28,7 @@ h4,
 h5,
 h6,
 b {
-    font-family: 'Monda', Arial, Helvetica, sans-serif;
+    font-family: DINNextW1G, arial, georgia, sans-serif;
     font-weight: 700;
 }
 
