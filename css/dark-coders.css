@@ -4,10 +4,9 @@
 
 .coders-card {
     width: 100%;
-    border: solid 1px #336;
     box-shadow: #336 2px 2px 6px;
     margin: .5rem 0;
-    background-color: #336;
+    /* background-color: rgba(78, 78, 78, 0.712); */
     padding: 5px;
 }
 
@@ -62,9 +61,6 @@
 
 /* NOVEDADES */
 
-
-/* PRIMER APARTADO */
-
 .novedades1 {
     padding: 10px;
 }
@@ -74,7 +70,7 @@
     border: solid 1px #336;
     box-shadow: #336 2px 2px 6px;
     margin: .5rem 0;
-    background-color: #336;
+    background-color: rgba(0, 0, 0, 0.301);
     padding: 5px;
 }
 
@@ -102,42 +98,14 @@
     }
 }
 
-
-/* SEGUNDO APARTADO */
-
-.novedades2 {
-    padding: 10px;
-}
-
-.novedades2_1 {
-    width: 100%;
-    border: solid 1px #336;
-    box-shadow: #336 2px 2px 6px;
-    margin: .5rem 0;
-    background-color: #336;
-    padding: 5px;
-}
-
-.novedades2_1 .titulo2 {
-    margin: 0;
-    border: 0;
-    font-size: 1.25rem;
-    text-align: center;
-    text-shadow: #003 2px 2px;
-}
-
-.novedades2_2 img {
-    width: 100%;
-}
-
-@media all and (min-width: 480px) {
-    .novedades2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-        overflow: hidden;
+@media all and (min-width: 560px) {
+    .novedades1 {
+        grid-template-columns: repeat(3, 1fr);
     }
-    .novedades2_1 .titulo2 {
-        font-size: 1rem;
+}
+
+@media all and (min-width: 768px) {
+    .novedades1_1 .titulo {
+        font-size: 1.25rem;
     }
 }
