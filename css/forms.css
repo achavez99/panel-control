@@ -10,7 +10,7 @@ input[type="email"] {
     border-bottom: solid 1px var(--light-color);
     width: 100%;
     font-size: 1.25rem;
-    color: var(--light-color);
+    color: black;
     padding: .25rem;
 }
 
@@ -20,7 +20,7 @@ input[type="email"]:focus {
     border: 0;
     border-bottom: solid 2px var(--primary-color);
     background-color: var(--light-color);
-    color: var(--dark-color);
+    color: black;
 }
 
 input+label {
@@ -32,7 +32,7 @@ textarea {
     padding: .25rem;
     font-size: 1.25rem;
     background-color: var(--dark-color);
-    color: var(--light-color);
+    color: black;
     outline: none;
     border: 0;
     border-left: solid 1px var(--light-color);
@@ -40,7 +40,7 @@ textarea {
 }
 
 textarea:focus {
-    color: var(--dark-color);
+    color: black;
     background-color: var(--light-color);
     border-left: solid 5px var(--primary-color);
     border-top: solid 1px var(--primary-color);
