@@ -40,6 +40,11 @@ h1 {
     width: fit-content;
 }
 
+h4 {
+    margin: auto;
+    width: fit-content;
+}
+
 h1.titulo {
     font-size: 2rem;
     padding-top: 0rem;
